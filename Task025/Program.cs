@@ -4,9 +4,9 @@
 
 
 Console.WriteLine("Enter number A ->");
-int numberA =Convert.ToInt32(Console.ReadLine());
+int numberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter number B ->");
-int numberB =Convert.ToInt32(Console.ReadLine());
+int numberB = Convert.ToInt32(Console.ReadLine());
 
 int Exponentiation(int numA, int numB)
 {
@@ -15,10 +15,10 @@ int Exponentiation(int numA, int numB)
     while (degree <= numB)
     {
         result = result * numA;
-        degree ++;
+        degree++;
     }
     return result;
 }
 if (numberB > 0)
-Console.WriteLine(Exponentiation(numberA, numberB));
+    Console.WriteLine(Exponentiation(numberA, numberB));
 else Console.WriteLine("Number B is not natural");
